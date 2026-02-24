@@ -19,7 +19,9 @@ for (const item of cursorItems) {
 
                 setTimeout(function () {
                     item.innerText = text;
+                    
                     item.classList.remove("copied");
+                    
                 }, 1000);
             })
             .catch(function (err) {
