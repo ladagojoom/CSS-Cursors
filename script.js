@@ -25,7 +25,7 @@ for (const item of cursorItems) {
                 }, 1000);
             })
             .catch(function (err) {
-                console.error("Could not copy text: ", err);
+                console.error("Could't copy text: ", err);
             });
 
     })
